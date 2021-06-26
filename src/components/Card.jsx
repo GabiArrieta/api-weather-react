@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./Card.module.css";
 
 export default function Card(props) {
-  // acá va tu código
   const { max, min, name, img, onClose } = props;
 
   return (
